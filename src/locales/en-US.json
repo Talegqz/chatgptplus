@@ -1,0 +1,105 @@
+{
+  "lang_name": "English",
+  "title": "ChatGPT-Plus",
+  "window": { "title": "ChatGPT-Plus {{title}}" },
+  "c": {
+    "message": "Message",
+    "prompt": "Prompt",
+    "plugin": "Plugin",
+    "share": "Share",
+    "store": "Store",
+    "readme": "Readme",
+    "setting": "Setting",
+    "open": "Open",
+    "close": "Close",
+    "delete": "Delete",
+    "deleteSuccess": "Delete succeeded",
+    "save": "Save",
+    "saveSuccess": "Save succeeded",
+    "reset": "Reset",
+    "action": "Action",
+    "export": "Export",
+    "exportSuccess": "Export succeeded",
+    "import": "Import",
+    "importSuccess": "Import succeeded",
+    "clear": "Clear",
+    "clearSuccess": "Clear succeeded",
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "download": "Download",
+    "success": "Operation succeeded",
+    "failed": "Operation failed",
+    "devBuilding": "Under development"
+  },
+  "chat": {
+    "newChat": "New message",
+    "send": "Send",
+    "setting": "Settings",
+    "api_warning": "The plugin system is under development. Please do not use the plugin function.",
+    "inputPlaceholder": "Say something... Type / to view suggested words",
+    "coiledText": "Continued conversation {{status}}",
+    "tryGpt4": "Try GPT-4",
+    "optionTitle": "Settings",
+    "option": {
+      "apiType": "Access method",
+      "apiTypeAPI": "api",
+      "apiTypeWEB": "web",
+      "max_tokens": "Maximum reply length",
+      "max_tokensTip": "The maximum number of tokens used in a single interaction",
+      "top_p": "Reply filter",
+      "top_pTip": "The higher the top_p value, the more likely the reply is of high quality",
+      "temperature": "Reply randomness",
+      "temperatureTip": "The higher the temperature value, the more likely the reply is random",
+      "presence_penalty": "Topic repetition",
+      "presence_penaltyTip": "The higher the presence_penalty value, the more likely to talk about new content topics",
+      "frequency_penalty": "Vocabulary repetition",
+      "frequency_penaltyTip": "The higher the frequency_penalty value, the more likely to avoid repeated content",
+      "stop": "Stop character",
+      "stopTip": "When this character appears in the reply, stop the reply"
+    }
+  },
+  "prompt": {
+    "newPrompt": "Create prompt",
+    "editPrompt": "Edit prompt",
+    "save": "Save",
+    "onlinePrompt": "Online prompt",
+    "promptStoreTitle": "Recommended Prompts",
+    "importExport": "Import and Export",
+    "search": "Search",
+    "searchPlaceholder": "Enter a prompt"
+  },
+  "setting": {
+    "m_surface": "Surface",
+    "m_surface_option": {
+      "theme": "theme",
+      "main_color": "main_color",
+      "radius": "radius",
+      "loose": "loose",
+      "default": "default"
+    },
+    "m_common": "Common",
+    "m_common_option": {
+      "lang": "Language",
+      "send_message_style": "Send Message Style"
+    },
+    "m_network": "Network",
+    "m_network_option": {
+      "DEFAULT_API_TYPE": "API_TYPE",
+      "apiTypeAPI": "api",
+      "apiTypeWEB": "web",
+      "OPENAI_API_KEY": "OpenAI API Key",
+      "OPENAI_API_BASE_URL": "OpenAI API Base URL",
+      "OPENAI_ACCESS_TOKEN": "OpenAI Access Token",
+      "API_REVERSE_PROXY": "API Reverse Proxy"
+    },
+    "m_feedback": "Feedback",
+    "m_feedback_option": {},
+    "m_about": "About",
+    "m_about_option": {
+      "now_version": "now_version",
+      "check_update": "check_update",
+      "update_log": "update_log"
+    }
+  }
+}

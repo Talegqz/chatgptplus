@@ -1,0 +1,89 @@
+{
+  "name": "chatgpt-plus",
+  "private": true,
+  "version": "1.2.52",
+  "description": "ChatGPT-Plus Application.",
+  "author": "Zhpd <zpd106@sina.com>",
+  "keywords": [
+    "chatgpt",
+    "chatgpt-plus",
+    "openai",
+    "chatbot",
+    "gpt3",
+    "gpt4",
+    "nextjs"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "homepage": "https://chat.gptc.cc",
+  "bugs": "https://github.com/zhpd/chatgpt-plus/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhpd/chatgpt-plus"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "deploy": "npm run build && npm run release-ci",
+    "release": "dotenv -- release-it ",
+    "release-ci": "dotenv -- release-it --ci",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "1.9.5",
+    "@vercel/analytics": "^1.0.0",
+    "ahooks": "3.7.6",
+    "antd": "5.4.2",
+    "axios": "1.3.5",
+    "dayjs": "1.11.7",
+    "github-markdown-css": "5.2.0",
+    "i18next": "22.4.14",
+    "katex": "0.16.6",
+    "markdown-it": "13.0.1",
+    "nanoid": "4.0.2",
+    "next": "13.3.0",
+    "next-i18next": "13.2.2",
+    "nodemailer": "6.9.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "12.2.0",
+    "react-markdown": "8.0.7",
+    "react-redux": "8.0.5",
+    "react-syntax-highlighter": "15.5.0",
+    "rehype-katex": "6.0.2",
+    "rehype-raw": "6.1.1",
+    "remark-gfm": "3.0.1",
+    "remark-math": "5.1.1",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "17.6.1",
+    "@release-it/conventional-changelog": "5.1.1",
+    "@svgr/webpack": "7.0.0",
+    "@types/katex": "0.16.0",
+    "@types/markdown-it": "12.2.3",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.37",
+    "@types/react-dom": "18.0.11",
+    "@types/react-syntax-highlighter": "15.5.6",
+    "auto-changelog": "2.4.0",
+    "dotenv-cli": "7.2.1",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "husky": "8.0.3",
+    "jest": "29.5.0",
+    "raw-loader": "^4.0.2",
+    "release-it": "15.10.1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

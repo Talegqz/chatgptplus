@@ -1,0 +1,109 @@
+{
+  "lang_name": "简体中文",
+  "title": "ChatGPT-Plus",
+  "window": {
+    "title": "ChatGPT-Plus {{title}}"
+  },
+  "c": {
+    "message": "消息",
+    "prompt": "提示",
+    "plugin": "插件",
+    "share": "分享",
+    "store": "商店",
+    "readme": "介绍",
+    "setting": "设置",
+    "open": "开启",
+    "close": "关闭",
+    "delete": "删除",
+    "deleteSuccess": "删除成功",
+    "save": "保存",
+    "saveSuccess": "保存成功",
+    "reset": "重置",
+    "action": "操作",
+    "export": "导出",
+    "exportSuccess": "导出成功",
+    "import": "导入",
+    "importSuccess": "导入成功",
+    "clear": "清空",
+    "clearSuccess": "清空成功",
+    "yes": "是",
+    "no": "否",
+    "confirm": "确定",
+    "download": "下载",
+    "success": "操作成功",
+    "failed": "操作失败",
+    "devBuilding": "正在开发中"
+  },
+  "chat": {
+    "newChat": "新消息",
+    "send": "发送",
+    "setting": "设置",
+    "api_warning": "插件系统正在开发中, 请勿使用插件功能。",
+    "inputPlaceholder": "来说点什么吧....  输入/ 以查看提示词",
+    "coiledText": "连续对话 {{status}}",
+    "tryGpt4": "Try GPT-4",
+    "optionTitle": "配置",
+    "option": {
+      "apiType": "访问方式",
+      "apiTypeAPI": "api",
+      "apiTypeWEB": "web",
+      "model": "模型",
+      "modelTip": "选择模型",
+      "max_tokens": "单次回复限制",
+      "max_tokensTip": "单次交互所用的最大 Token 数",
+      "top_p": "回复筛选",
+      "top_pTip": "top_p值越大，回复越有可能是高质量的",
+      "temperature": "回复随机性",
+      "temperatureTip": "temperature值越大，回复越有可能是随机的",
+      "presence_penalty": "话题重复度",
+      "presence_penaltyTip": "presence_penalty值越大，越有可能谈论新内容话题",
+      "frequency_penalty": "词汇重复度",
+      "frequency_penaltyTip": "frequency_penalty值越大，越有可能避免重复内容",
+      "stop": "结束符",
+      "stopTip": "回复中出现该字符时，停止回复"
+    }
+  },
+  "prompt": {
+    "newPrompt": "创建提示语",
+    "editPrompt": "编辑提示语",
+    "save": "保存",
+    "onlinePrompt": "在线提示语",
+    "promptStoreTitle": "推荐提示语Prompt",
+    "importExport": "导入导出",
+    "search": "搜索",
+    "searchPlaceholder": "请输入提示词"
+  },
+  "setting": {
+    "m_surface": "外观配置",
+    "m_surface_option": {
+      "theme": "主题",
+      "main_color": "主色",
+      "radius": "圆角",
+      "loose": "宽松",
+      "default": "默认"
+    },
+    "m_common": "通用配置",
+    "m_common_option": {
+      "lang": "语言",
+      "send_message_style": "发送消息"
+    },
+    "m_network": "网络设置",
+    "m_network_option": {
+      "DEFAULT_API_TYPE": "默认请求方式",
+      "apiTypeAPI": "api",
+      "apiTypeWEB": "web",
+      "OPENAI_API_KEY": "OpenAI API Key",
+      "OPENAI_API_BASE_URL": "OpenAI API Base URL",
+      "OPENAI_ACCESS_TOKEN": "OpenAI Access Token",
+      "API_REVERSE_PROXY": "API Reverse Proxy"
+    },
+    "m_feedback": "意见反馈",
+    "m_feedback_option": {},
+    "m_about": "关于应用",
+    "m_about_option": {
+      "now_version": "当前版本",
+      "check_update": "检查更新",
+      "update_log": "更新日志"
+    }
+  }
+}
